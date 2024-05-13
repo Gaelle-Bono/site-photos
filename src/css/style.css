@@ -1,0 +1,35 @@
+
+a:hover {
+  opacity:0.5;
+}
+
+h1, h2{
+  font-family: 'Nova Mono',sans-serif;
+}
+
+/************************************************************ header ****************************/
+header{
+  background-color: rgb(71, 85, 94);
+}
+
+/* nav bar */
+.nav-link{
+  color : #EEEEEE;
+}
+
+/************************************************************* home ****************************/
+.home{
+  padding: 0;
+  position : relative;
+}
+
+.big-title{
+  font-weight: bold;
+  font-size: 3rem; 
+  position : absolute;
+  top : 45%;
+  transform : translate(0,-50%);
+  display : block;
+  width : 100%;
+}
+
