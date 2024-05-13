@@ -1,4 +1,4 @@
-const portraits = ["portrait01.jpg","portrait02.jpg","portrait03.jpg","portrait04.jpg"];
+const portraits = ["portrait01.jpg","portrait02.jpg","portrait03.jpg","portrait04.jpg","portrait05.jpg","portrait06.jpg"];
 const couples = ["couple01.jpg","couple02.jpg","couple03.jpg"];
 const marriages = ["mariage01.jpg","mariage02.jpg","mariage03.jpg", "mariage04.jpg", "mariage05.jpg"];
 const pregnancies = ["grossesse01.jpg","grossesse02.jpg","grossesse03.jpg"];
