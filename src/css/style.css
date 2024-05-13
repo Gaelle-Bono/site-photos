@@ -33,3 +33,21 @@ header{
   width : 100%;
 }
 
+
+/************* gallery header  **********************/
+
+.blue-container{
+  background-color: rgb(129, 163, 184);
+}
+.gallery-header{
+  padding : 0;
+}
+
+.dropdown-toggle{
+  background-color: rgb(71, 85, 94);
+  color :#EEEEEE;
+}
+
+.dropdown-menu{
+  width : 215px;
+}
