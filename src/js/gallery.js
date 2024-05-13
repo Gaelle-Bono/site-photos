@@ -1,16 +1,17 @@
-const portraits = ["portrait01.jpg","portrait02.jpg","portrait03.jpg", "portrait04.jpg", "portrait05.jpg"];
-const couples = ["couple01.jpg"];
-const marriages = ["mariage01.jpg","mariage02.jpg"];
+const portraits = ["portrait01.jpg","portrait02.jpg","portrait03.jpg", "portrait04.jpg"];
+const couples = ["couple01.jpg","couple02.jpg","couple03.jpg"];
+const marriages = ["mariage01.jpg","mariage02.jpg","mariage03.jpg", "mariage04.jpg", "mariage05.jpg"];
 const pregnancies = ["grossesse01.jpg","grossesse02.jpg","grossesse03.jpg"];
-const babies = ["bebe01.jpg","bebe02.jpg"];
+const babies = ["bebe01.jpg","bebe02.jpg","bebe03.jpg", "bebe04.jpg"];
 const baptismes = ["bapteme01.jpg"];
-const families = ["famille01.jpg","famille02.jpg"];
+const families = ["famille01.jpg","famille02.jpg","famille03.jpg", "famille04.jpg"];
 
 function Category (array, frCategory, enCategory){
     this.array = array;
     this.frCategory = frCategory;
     this.enCategory = enCategory;
   }
+
 
 const portrait = new Category(portraits, "Portrait", "portrait");
 const couple = new Category(couples, "Couple", "couple");
@@ -20,17 +21,20 @@ const baby = new Category(babies, "Bébé", "baby");
 const baptism = new Category(baptismes, "Baptême", "baptism");
 const family = new Category(families, "Famille", "family");
 
+
 const all = [portrait, couple, marriage, pregnancy, baby, baptism, family]
+
 
 const urlPhoto = "/assets/photos/";
 const h2_title = "Catégorie "
+
 
 const galleryPhotos = document.querySelector(".gallery-photos"); 
 
 let i;
 
 
-function selectedCategory() {
+function dropdownitemSelection() {
   let dropdownItems = document.querySelectorAll(".dropdown-item");
   dropdownItems.forEach(element => {
     element.addEventListener('click', e => {
@@ -73,7 +77,6 @@ function removePhotos() {
     galleryPhotos.removeChild(galleryPhotos.firstChild);
   }
 }
-
 
 function ShowSelectedCategoryPhotos(category){
   //create a div 
@@ -143,7 +146,6 @@ function ShowSelectedCategoryPhotos(category){
   galleryPhotos.appendChild(div1);
 }
 
-
 function ShowAllPhotos(){
   for (const element of all) {
     ShowSelectedCategoryPhotos(element);
@@ -159,5 +161,14 @@ function ShowAllPhotos(){
   baptismPhotos.classList.add("blue-container");
 }
 
+function initialisation(){
+  i = 0;
+  ShowAllPhotos();
+} 
 
-selectedCategory();
+//initialisation
+initialisation();
+
+//if dropdownitem menu has been selected
+dropdownitemSelection();
+
