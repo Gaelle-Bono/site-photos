@@ -4,7 +4,7 @@ const marriages = ["mariage01.jpg","mariage02.jpg","mariage03.jpg", "mariage04.j
 const pregnancies = ["grossesse01.jpg","grossesse02.jpg","grossesse03.jpg"];
 const babies = ["bebe01.jpg","bebe02.jpg","bebe03.jpg"];
 const baptismes = ["bapteme01.jpg"];
-const families = ["famille01.jpg","famille02.jpg","famille03.jpg","famille04.jpg"];
+const families = ["famille01.jpg","famille02.jpg","famille03.jpg"];
 
 function Category (array, frCategory, enCategory){
     this.array = array;
