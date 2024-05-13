@@ -1,9 +1,9 @@
-const portraits = ["portrait01.jpg","portrait02.jpg","portrait03.jpg"];
-const couples = ["couple01.jpg","couple02.jpg"];
+const portraits = ["portrait01.jpg","portrait02.jpg","portrait03.jpg","portrait04.jpg"];
+const couples = ["couple01.jpg","couple02.jpg","couple03.jpg"];
 const marriages = ["mariage01.jpg","mariage02.jpg","mariage03.jpg", "mariage04.jpg", "mariage05.jpg"];
 const pregnancies = ["grossesse01.jpg","grossesse02.jpg","grossesse03.jpg"];
-const babies = ["bebe01.jpg","bebe02.jpg","bebe03.jpg"];
-const baptismes = ["bapteme01.jpg"];
+const babies = ["bebe01.jpg","bebe02.jpg","bebe03.jpg","bebe04.jpg"];
+const baptismes = ["bapteme01.jpg","bapteme02.jpg","bapteme03.jpg"];
 const families = ["famille01.jpg","famille02.jpg","famille03.jpg"];
 
 function Category (array, frCategory, enCategory){
