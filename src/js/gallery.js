@@ -21,8 +21,8 @@ const baby = new Category(babies, "Bébé", "baby");
 const baptism = new Category(baptismes, "Baptême", "baptism");
 const family = new Category(families, "Famille", "family");
 
-
 const all = [portrait, couple, marriage, pregnancy, baby, baptism, family]
+
 
 
 const urlPhoto = "/assets/photos/";
@@ -37,6 +37,8 @@ let i;
 function dropdownitemSelection() {
   let dropdownItems = document.querySelectorAll(".dropdown-item");
   dropdownItems.forEach(element => {
+
+    //show the photos of the category selected with the dropdown menu 
     element.addEventListener('click', e => {
       i = 0;
       //remove all childs from GalleryPhotos
@@ -81,7 +83,7 @@ function removePhotos() {
 function ShowSelectedCategoryPhotos(category){
   //create a div 
   const div1 = document.createElement("div");
-  div1.classList.add("p-4",category.enCategory);
+  div1.classList.add("p-4","category");
 
   //create a title
   const title = document.createElement("h2");
@@ -150,15 +152,24 @@ function ShowAllPhotos(){
   for (const element of all) {
     ShowSelectedCategoryPhotos(element);
   }
-  //Colorize in blue one category div on two
-  const couplePhotos = document.querySelector(".couple");  
-  couplePhotos.classList.add("blue-container");
+  colorizingInBlue();
+}
 
-  const pregnancyPhotos = document.querySelector(".pregnancy");  
-  pregnancyPhotos.classList.add("blue-container");
-
-  const baptismPhotos = document.querySelector(".baptism");  
-  baptismPhotos.classList.add("blue-container");
+function colorizingInBlue(){
+  const categoriesDivs = document.querySelectorAll(".category"); 
+  const categoriesTitles = document.querySelectorAll(".category h2"); 
+  
+  categoriesDivs.forEach((div, index) => {
+    if (index % 2 != 0) {
+        div.classList.add("blue-container");
+    }
+  });
+  
+  categoriesTitles.forEach((div, index) => {
+    if (index % 2 != 0) {
+        div.classList.add("blue-text");
+    }
+  });
 }
 
 function initialisation(){
@@ -169,6 +180,7 @@ function initialisation(){
 //initialisation
 initialisation();
 
-//if dropdownitem menu has been selected
+
+
 dropdownitemSelection();
 

@@ -1,10 +1,18 @@
-
+/************************************************************ general ****************************/
 a:hover {
   opacity:0.5;
 }
 
 h1, h2{
   font-family: 'Nova Mono',sans-serif;
+}
+
+.blue-container{
+  background-color: rgb(129, 163, 184);
+}
+
+.blue-text {
+  color:rgb(5, 74, 116);
 }
 
 /************************************************************ header ****************************/
@@ -18,7 +26,7 @@ header{
 }
 
 /************************************************************* home ****************************/
-.home{
+.hero{
   padding: 0;
   position : relative;
 }
@@ -33,12 +41,11 @@ header{
   width : 100%;
 }
 
+/****************************** gallery *****************************************/
+
 
 /************* gallery header  **********************/
 
-.blue-container{
-  background-color: rgb(129, 163, 184);
-}
 .gallery-header{
   padding : 0;
 }
@@ -65,3 +72,48 @@ header{
   cursor: pointer;
 }
 
+/************ Services & Rates*************************/
+
+.service-price {
+  font-weight:500;
+}
+
+/************ Contact************************/
+
+form{
+  display : flex;
+  flex-direction: column;
+}
+
+form button {
+  width : 200px;
+  background-color: rgb(71, 85, 94);
+  color :#EEEEEE;
+  border-radius: 7px;
+  border: 1px rgb(71, 85, 94) solid;
+  padding : 5px;
+}
+
+form button:enabled:hover {
+  background-color: rgb(129, 163, 184);
+  color :rgb(41, 33, 36);
+  border-color : rgb(41, 33, 36);
+}
+
+form button:disabled {
+  opacity:0.5;
+}
+
+
+
+
+
+
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,102,203);
+} 
