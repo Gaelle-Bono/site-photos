@@ -23,6 +23,7 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    layout : 
+      hidden : true
 timezone: Etc/UTC
-layout : 
-  hidden : true
+
