@@ -4,13 +4,13 @@ layout : layout/base.html
 ---
 
  <div class="container-fluid">
-  <h1 class="text-center p-5">Contact</h1>
+  <h1 class="text-center p-5 editable">Contact</h1>
 
   <div class="blue-container p-5">
     
     <form action="https://formspree.io/f/xgegqzrp" method="POST" id="contact-form" novalidate>
       <div class="mb-3">
-        <label for="firstname" class="form-label">Votre nom :</label>
+        <label for="firstname" class="form-label editable">Votre nom :</label>
         <input type="text" class="form-control" id="firstname" name="firstname" required/>
         <div class="invalid-feedback">
           Le nom est requis
@@ -18,7 +18,7 @@ layout : layout/base.html
       </div>
 
       <div class="mb-3">
-        <label for="lastname" class="form-label">Votre prénom :</label>
+        <label for="lastname" class="form-label editable">Votre prénom :</label>
         <input type="text" class="form-control" id="lastname" name="lastname" required/>
         <div class="invalid-feedback">
           Le prénom est requis
@@ -26,7 +26,7 @@ layout : layout/base.html
       </div>
 
       <div class="mb-3">
-        <label for="email" class="form-label">Votre mail :</label>
+        <label for="email" class="form-label editable">Votre mail :</label>
         <input type="email" class="form-control" id="email" name="email" class="mb-3" required/>
         <div class="invalid-feedback">
           Le mail n'est pas au bon format
@@ -34,13 +34,13 @@ layout : layout/base.html
       </div>
 
       <div class="mb-3">
-        <label for="msg" class="form-label">Votre message :</label>
+        <label for="msg" class="form-label editable">Votre message :</label>
         <textarea id="msg" class="form-control" name="message" rows="5" class="mb-5" required></textarea>
         <div class="invalid-feedback">
           Le message est requis
         </div>
       </div>
-      <button type="submit" id="send" class="m-auto">Envoyer</button>
+      <button type="submit" id="send" class="m-auto editable">Envoyer</button>
     </form>
   </div>
 </div> 
