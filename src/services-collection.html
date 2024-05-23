@@ -1,12 +1,14 @@
 ---
-title : Tarifs et services
-layout : layout/base.html
+title: Prestations
+layout: layout/base.html
 eleventyImport:
-  collections: ["service"]
+  collections:
+    - service
 ---
-
 <div class="container-fluid">
-  <h1 class="text-center p-5 editable">Tarifs et prestations</h1>
+  <h1 class="text-center p-5 editable">
+      Prestations et tarifs
+  </h1>
 
   {% for service in collections.service %}
     <div class="p-5 service-container"> 
