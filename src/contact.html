@@ -11,7 +11,7 @@ layout: layout/base.html
     
     <form action="https://formspree.io/f/xgegqzrp" method="POST" id="contact-form" novalidate>
       <div class="mb-3">
-        <label for="firstname" class="form-label editable">Votre nom :</label>
+        <label for="firstname" class="editable form-label">Votre nom :</label>
         <input type="text" class="form-control" id="firstname" name="firstname" required />
         <div class="invalid-feedback">
           Le nom est requis
@@ -19,7 +19,7 @@ layout: layout/base.html
       </div>
 
       <div class="mb-3">
-        <label for="lastname" class="form-label editable">Votre prénom :</label>
+        <label for="lastname" class="editable form-label editable">Votre prénom :</label>
         <input type="text" class="form-control" id="lastname" name="lastname" required />
         <div class="invalid-feedback">
           Le prénom est requis
@@ -27,7 +27,7 @@ layout: layout/base.html
       </div>
 
       <div class="mb-3">
-        <label for="email" class="form-label editable">Votre mail :</label>
+        <label for="email" class=" editable form-label editable">Votre mail :</label>
         <input type="email" class="form-control" id="email" name="email" required />
         <div class="invalid-feedback">
           Le mail n'est pas au bon format
@@ -41,7 +41,7 @@ layout: layout/base.html
           Le message est requis
         </div>
       </div>
-      <button type="submit" id="send" class="m-auto editable">Envoyer</button>
+      <button type="submit" id="send" class="editable m-auto">Envoyer</button>
     </form>
   </div>
 </div> 
