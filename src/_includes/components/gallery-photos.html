@@ -1,0 +1,94 @@
+<div class="container-fluid gallery-photos">
+
+  <!-- portrait category -->
+  <div class="p-4 category visible" data-category="portrait">
+    <h2 class="p-4">{{ photos.portraits.h2-title }}</h2>
+    <div class="row">
+      {% for portrait in collections.portraits %}
+        <!-- show the photo -->
+        <div class="col-12 col-sm-4 col-lg-3 pb-4">
+          <img class="image" src="{{ photos.path }}{{ portrait.data.name }}" alt="{{ portrait.data.name | removeExt }}">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- couple category -->
+  <div class="p-4 category visible" data-category="couple">
+    <h2 class="p-4">{{ photos.couples.h2-title }}</h2>
+    <div class="row">
+      {% for couple in collections.couples %}
+        <!-- show the photo -->
+        <div class="col-12 col-sm-4 col-lg-3 pb-4">
+          <img class="image" src="{{ photos.path }}{{ couple.data.name }}" alt="{{ couple.data.name }}">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- couple marriage -->
+  <div class="p-4 category visible" data-category="marriage">
+    <h2 class="p-4">{{ photos.marriages.h2-title }}</h2>
+    <div class="row">
+      {% for marriage in collections.marriages %}
+        <!-- show the photo -->
+        <div class="col-12 col-sm-4 col-lg-3 pb-4">
+          <img class="image" src="{{ photos.path }}{{ marriage.data.name }}" alt="{{ marriage.data.name }}">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- pregnancy category -->
+  <div class="p-4 category visible" data-category="pregnancy">
+    <h2 class="p-4">{{ photos.pregnancies.h2-title }}</h2>
+    <div class="row">
+      {% for pregnancy in collections.pregnancies %}
+        <!-- show the photo -->
+        <div class="col-12 col-sm-4 col-lg-3 pb-4">
+          <img class="image" src="{{ photos.path }}{{ pregnancy.data.name }}" alt="{{ pregnancy.data.name }}">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- baby category -->
+  <div class="p-4 category visible" data-category="baby">
+    <h2 class="p-4">{{ photos.babies.h2-title }}</h2>
+    <div class="row">
+      {% for baby in collections.babies %}
+        <!-- show the photo -->
+        <div class="col-12 col-sm-4 col-lg-3 pb-4">
+          <img class="image" src="{{ photos.path }}{{ baby.data.name }}" alt="{{ baby.data.name }}">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- baptism category -->
+  <div class="p-4 category visible" data-category="baptism">
+    <h2 class="p-4">{{ photos.baptismes.h2-title }}</h2>
+    <div class="row">
+      {% for baptism in collections.baptismes %}
+        <!-- show the photo -->
+        <div class="col-12 col-sm-4 col-lg-3 pb-4">
+          <img class="image" src="{{ photos.path }}{{ baptism.data.name }}" alt="{{ baptism.data.name }}">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- family category -->
+  <div class="p-4 category visible" data-category="family">
+    <h2 class="p-4">{{ photos.families.h2-title }}</h2>
+    <div class="row">
+      {% for family in collections.families %}
+        <!-- show the photo -->
+        <div class="col-12 col-sm-4 col-lg-3 pb-4">
+          <img class="image" src="{{ photos.path }}{{ family.data.name }}" alt="{{ family.data.name }}">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>

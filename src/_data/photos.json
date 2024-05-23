@@ -1,0 +1,31 @@
+{
+  "path" : "../assets/photos/",
+  "portraits" : {
+    "h2-title" : "Catégorie Portrait",
+    "category" : "Portrait"
+  },
+  "couples" : {
+    "h2-title" : "Catégorie Couple",
+    "category" : "Couple"
+  },
+  "marriages" : {
+    "h2-title" : "Catégorie Mariage",
+    "category" : "Mariage"
+  },
+  "babies" : {
+    "h2-title" : "Catégorie Bébé",
+    "category" : "Bébé"
+  },
+  "pregnancies" : {
+    "h2-title" : "Catégorie Grossesse",
+    "category" : "Grossesse"
+  },
+  "baptismes" : {
+    "h2-title" : "Catégorie Baptême",
+    "category" : "Baptême"
+  },
+  "families" : {
+    "h2-title" : "Catégorie Famille",
+    "category" : "Famille"
+  }
+}

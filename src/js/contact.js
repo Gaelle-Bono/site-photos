@@ -7,19 +7,20 @@ const message = document.getElementById("msg");
 
 const contactForm = document.getElementById("contact-form");
 
-contactForm.addEventListener('submit', function(event) {
-  Inputfirstname.value = sanitizeHtml(Inputfirstname.value);
-  InputLastname.value = sanitizeHtml(InputLastname.value);
-  InputEmail.value = sanitizeHtml(InputEmail.value);
-  message.value = sanitizeHtml(message.value);
+if (contactForm){
+  contactForm.addEventListener('submit', function(event) {
+    Inputfirstname.value = sanitizeHtml(Inputfirstname.value);
+    InputLastname.value = sanitizeHtml(InputLastname.value);
+    InputEmail.value = sanitizeHtml(InputEmail.value);
+    message.value = sanitizeHtml(message.value);
 
-  if (!contactForm.checkValidity()) {
-    event.preventDefault()
-    event.stopPropagation()
-  } 
-  contactForm.classList.add('was-validated');
-}, false)
-
+    if (!contactForm.checkValidity()) {
+      event.preventDefault()
+      event.stopPropagation()
+    } 
+    contactForm.classList.add('was-validated');
+  }, false)
+}
 
 function sanitizeHtml(text){
   // Create a temporary HTML div element  
