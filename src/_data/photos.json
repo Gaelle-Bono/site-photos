@@ -1,120 +1,94 @@
 {
-  "portraits" : [
+  "Portrait" : [
     { 
-      "path" : "/assets/photos/portrait01.jpg",
-      "category" : "Portrait" 
+      "path" : "/assets/photos/portrait01.jpg"
     },
     { 
-      "path" : "/assets/photos/portrait02.jpg",
-      "category" : "Portrait" 
+      "path" : "/assets/photos/portrait02.jpg"
     },
     { 
-      "path" : "/assets/photos/portrait03.jpg",
-      "category" : "Portrait" 
+      "path" : "/assets/photos/portrait03.jpg"
     },
     { 
-      "path" : "/assets/photos/portrait04.jpg",
-      "category" : "Portrait" 
+      "path" : "/assets/photos/portrait04.jpg"
     },
     { 
-      "path" : "/assets/photos/portrait05.jpg",
-      "category" : "Portrait" 
+      "path" : "/assets/photos/portrait05.jpg"
     }
   ],
-  "couples" : [
+  "Couple" : [
     { 
-      "path" : "/assets/photos/couple01.jpg",
-      "category" : "Couple" 
+      "path" : "/assets/photos/couple01.jpg"
     },  
     { 
-      "path" : "/assets/photos/couple02.jpg",
-      "category" : "Couple" 
+      "path" : "/assets/photos/couple02.jpg"
     },
     { 
-      "path" : "/assets/photos/couple03.jpg",
-      "category" : "Couple" 
+      "path" : "/assets/photos/couple03.jpg"
     }
   ],
-  "marriages" : [
+  "Mariage" : [
     { 
-      "path" : "/assets/photos/mariage01.jpg",
-      "category" : "Mariage" 
+      "path" : "/assets/photos/mariage01.jpg"
     },
     { 
-      "path" : "/assets/photos/mariage02.jpg",
-      "category" : "Mariage" 
+      "path" : "/assets/photos/mariage02.jpg"
     },
     { 
-      "path" : "/assets/photos/mariage03.jpg",
-      "category" : "Mariage" 
+      "path" : "/assets/photos/mariage03.jpg"
     },
     { 
-      "path" : "/assets/photos/mariage04.jpg",
-      "category" : "Mariage" 
+      "path" : "/assets/photos/mariage04.jpg"
     },
     { 
-      "path" : "/assets/photos/mariage05.jpg",
-      "category" : "Mariage" 
+      "path" : "/assets/photos/mariage05.jpg"
     }
   ],
-  "pregnancies" : [
+  "Grossesse" : [
     { 
-      "path" : "/assets/photos/grossesse01.jpg",
-      "category" : "Grossesse" 
+      "path" : "/assets/photos/grossesse01.jpg"
     },
     { 
-      "path" : "/assets/photos/grossesse02.jpg",
-      "category" : "Grossesse" 
+      "path" : "/assets/photos/grossesse02.jpg"
     },
     { 
-      "path" : "/assets/photos/grossesse03.jpg",
-      "category" : "Grossesse" 
+      "path" : "/assets/photos/grossesse03.jpg"
     }
   ],
-  "babies" : [
+  "Bébé" : [
     { 
-      "path" : "/assets/photos/bebe01.jpg",
-      "category" : "Bébé" 
+      "path" : "/assets/photos/bebe01.jpg"
     },
     { 
-      "path" : "/assets/photos/bebe02.jpg",
-      "category" : "Bébé" 
+      "path" : "/assets/photos/bebe02.jpg"
     },    
     { 
-      "path" : "/assets/photos/bebe03.jpg",
-      "category" : "Bébé" 
+      "path" : "/assets/photos/bebe03.jpg"
     },  
     { 
-      "path" : "/assets/photos/bebe04.jpg",
-      "category" : "Bébé" 
+      "path" : "/assets/photos/bebe04.jpg"
     }
   ],
-  "baptismes" : [
+  "Baptême" : [
     { 
-      "path" : "/assets/photos/bapteme01.jpg",
-      "category" : "Baptême" 
+      "path" : "/assets/photos/bapteme01.jpg"
     },
     { 
-      "path" : "/assets/photos/bapteme02.jpg",
-      "category" : "Baptême" 
+      "path" : "/assets/photos/bapteme02.jpg"
     },
     { 
-      "path" : "/assets/photos/bapteme03.jpg",
-      "category" : "Baptême" 
+      "path" : "/assets/photos/bapteme03.jpg"
     }
   ],
-  "families" : [
+  "Famille" : [
     { 
-      "path" : "/assets/photos/famille01.jpg",
-      "category" : "Famille" 
+      "path" : "/assets/photos/famille01.jpg"
     },
     { 
-      "path" : "/assets/photos/famille02.jpg",
-      "category" : "Famille" 
+      "path" : "/assets/photos/famille02.jpg"
     },
     { 
-      "path" : "/assets/photos/famille03.jpg",
-      "category" : "Famille" 
+      "path" : "/assets/photos/famille03.jpg"
     }
   ]  
 }
