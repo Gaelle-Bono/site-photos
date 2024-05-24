@@ -2,7 +2,7 @@
 
 /************************************************************ general ****************************/
 *{
-  font-family: font-family-default;
+  font-family: $font-family-default;
 }
 
 a:hover {
@@ -10,25 +10,25 @@ a:hover {
 }
 
 h1, h2{
-  font-family: font-family-title;
+  font-family: $font-family-title;
 }
 
 .blue-container{
-  background-color: secondary-color;
+  background-color: $secondary;
 }
 
 .blue-text {
-  color:tertiary-color;
+  color:$tertiary;
 }
 
 /************************************************************ header ****************************/
 header{
-  background-color: primary-color;
+  background-color: $primary;
 }
 
 /* nav bar */
 .nav-link{
-  color :white-color;
+  color : $white;
 }
 
 /************************************************************* home ****************************/
@@ -58,8 +58,8 @@ header{
 }
 
 .dropdown-toggle{
-  background-color: primary-color;
-  color :white-color;
+  background-color: $primary;
+  color :$white;
 }
 
 .dropdown-menu{
@@ -101,17 +101,17 @@ form{
 
 form button {
   width : 200px;
-  background-color:primary-color;
-  color : white-color;
+  background-color: $primary;
+  color : $white;
   border-radius: 7px;
-  border: 1px primary-color solid;
+  border: 1px $primary solid;
   padding : 5px;
 }
 
 form button:enabled:hover {
-  background-color: secondary-color;
-  color :dark-color;
-  border-color : dark-color;
+  background-color: $secondary;
+  color : $dark;
+  border-color : $dark;
 }
 
 form button:disabled {
