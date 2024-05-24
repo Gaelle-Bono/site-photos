@@ -33,5 +33,5 @@ _inputs:
   tertiary-color : "rgb(5, 74, 116)"
   dark-color : "rgb(41, 33, 36)"
   white-color : "#EEEEEE"
-  font-family-title: "Nova Mono"
-  font-family-default: "Roboto"
+  font-family-title : "Nova Mono"
+  font-family-default : "Roboto"
