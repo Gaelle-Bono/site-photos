@@ -1,6 +1,6 @@
 {
   "portrait": {
-    "h2-title": "Catégorie Portrait",
+    "h2-title": "Portrait",
     "items": [
       {
         "path": "/uploads/hpim0055.jpg"
@@ -18,7 +18,7 @@
         "path": "/assets/photos/portrait05.jpg"
       },
       {
-        "path": "/uploads/hpim0015-copie.jpg"
+        "path": null
       },
       {
         "path": "/uploads/wp-20171006-10-31-34-pro-2.jpg"
