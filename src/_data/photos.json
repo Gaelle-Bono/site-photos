@@ -1,9 +1,9 @@
 {
   "portrait": {
-    "h2-title": "Portrait",
+    "h2-title": "Catégorie Portrait",
     "items": [
       {
-        "path": "/uploads/hpim0055.jpg"
+        "path": "/assets/photos/portrait01.jpg"
       },
       {
         "path": "/assets/photos/portrait02.jpg"
