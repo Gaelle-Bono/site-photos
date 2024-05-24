@@ -6,10 +6,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget('src/js');
 
   eleventyConfig.addFilter("removeExt", function(name) {
-    return name.slice(name.lastIndexOf("/") +1, name.length-4);
+    return name.slice(name.lastIndexOf("/")+1, name.length-4);
    });
 
-  return
+  return {
       dir: {
           input: 'src',
       },
