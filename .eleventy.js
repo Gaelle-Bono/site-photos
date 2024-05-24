@@ -5,11 +5,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/js');
   eleventyConfig.addWatchTarget('src/js');
 
-  eleventyConfig.addFilter("removeExt", function(name) { 
-     return name.slice(14, name.length-4);
+  eleventyConfig.addFilter("removeExt", function(name) {
+    return name.slice(name.lastIndexOf("/") +1, name.length-4);
    });
 
-  return {
+  return
       dir: {
           input: 'src',
       },
