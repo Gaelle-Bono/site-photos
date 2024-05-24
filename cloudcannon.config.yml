@@ -27,3 +27,11 @@ timezone: Etc/UTC
 _inputs:
   layout : 
     hidden : true
+
+  primary-color : "rgb(71, 85, 94)"
+  secondary-color : "rgb(129, 163, 184)"
+  tertiary-color : "rgb(5, 74, 116)"
+  dark-color : "rgb(41, 33, 36)"
+  white-color : "#EEEEEE"
+  font-family-title: "Nova Mono"
+  font-family-default: "Roboto"
