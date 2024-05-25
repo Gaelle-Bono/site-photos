@@ -13,10 +13,8 @@ collections_config:
     output: false
     icon: notes
     disable_add_folder: false
+    disable_add: false
     disable_file_actions: false
-    Photos:
-      Galeries:
-        disable_add: true
   pages:
     path: ''
     output: true
