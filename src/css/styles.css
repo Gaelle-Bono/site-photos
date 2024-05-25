@@ -138,14 +138,35 @@ form button:disabled {
 
 @media screen and (max-width: 500px) {
   .logo{
-    width : 100px;
+    width : 125px;
   }
 
   .big-title{
     font-size : 2rem;
   }
 
-  .social-networks{
-  
+  .h1-title{
+    padding : 30px!important;
   }
+
+  .gallerys-presentation{
+    padding : 30px!important;
+  }
+
+  .dropdown{
+    margin-top : 30px!important;
+  }
+
+  .h2-title{
+    padding : 20px!important;
+  }
+
+  .service-container{
+    padding : 30px!important;
+  } 
+
+  .contact-container{
+    padding : 30px!important;
+  }
+
 }
