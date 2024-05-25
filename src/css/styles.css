@@ -46,6 +46,12 @@ header{
   height: 100vh;
 }
 
+.hero-photo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .big-title{
   font-weight: bold;
   font-size: 3rem; 
