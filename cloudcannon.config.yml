@@ -15,9 +15,9 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-      Photos:
-        Galeries:
-           disable_add: true
+    Photos:
+      Galeries:
+        disable_add: true
   pages:
     path: ''
     output: true
