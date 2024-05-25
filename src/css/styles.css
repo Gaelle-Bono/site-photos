@@ -131,3 +131,21 @@ form button:enabled:hover {
 form button:disabled {
   opacity:0.5;
 }
+
+
+
+/************ Media Queries ************************/
+
+@media screen and (max-width: 500px) {
+  .logo{
+    width : 100px;
+  }
+
+  .big-title{
+    font-size : 2rem;
+  }
+
+  .social-networks{
+  
+  }
+}
