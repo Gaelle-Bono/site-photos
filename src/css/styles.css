@@ -1,8 +1,9 @@
 :root {
   --primary: rgb(71, 85, 94);
+  --darker-primary: rgb(52, 62, 69);
   --secondary: rgb(129, 163, 184);
   --tertiary: rgb(5, 74, 116);
-  --dark: rgb(41, 33, 36);
+  --black: rgb(33, 37, 41);
   --white: #EEEEEE;
   --font-family-title: "Nova Mono", sans-serif;
   --font-family-default: "Roboto", serif;
@@ -11,6 +12,7 @@
 /************************************************************ general ****************************/
 *{
   font-family: var(--font-family-default);
+  color: var(--black);
 }
 
 a:hover {
@@ -19,6 +21,7 @@ a:hover {
 
 h1, h2{
   font-family: var(--font-family-title);
+  color: var(--darker-primary);
 }
 
 .blue-container{
@@ -53,6 +56,7 @@ header{
 }
 
 .big-title{
+  color : var(--darker-primary);
   font-weight: bold;
   font-size: 3rem; 
   position : absolute;
@@ -104,6 +108,7 @@ header{
 
 .service-price {
   font-weight:500;
+  color: var(--darker-primary);
 }
 
 /************ Contact************************/
