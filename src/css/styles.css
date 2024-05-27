@@ -106,9 +106,12 @@ header{
 
 /************ Services & Rates*************************/
 
+span {
+  color: var(--darker-primary);
+}
+
 .service-price {
   font-weight:500;
-  color: var(--darker-primary);
 }
 
 /************ Contact************************/
