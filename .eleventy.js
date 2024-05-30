@@ -1,6 +1,15 @@
 
 
+
+
 module.exports = function (eleventyConfig) {
+
+  let port = process.env.PORT;
+  if (port == null || port == "") {
+    port = 8080;
+  }
+  app.listen(port);
+
 
   eleventyConfig.addPassthroughCopy('src/assets');
   eleventyConfig.addPassthroughCopy('src/uploads');
